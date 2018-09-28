@@ -1,0 +1,13 @@
+<section class="todoapp">
+
+    <todo-todo-add></todo-todo-add>
+
+
+    <section class="main">
+        <input id="toggle-all" class="toggle-all" type="checkbox">
+        <label (click)="toggleAll();" for="toggle-all">Mark all as complete</label>
+
+        <todo-todos-list></todo-todos-list>
+    </section>
+    <todo-todo-footer></todo-todo-footer>
+</section>
